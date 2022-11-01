@@ -2,33 +2,43 @@ import javafx.scene.input.MouseEvent;
 
 public class MainFormController {
     public void num1OnAction(MouseEvent mouseEvent) {
+        setNumber(1);
     }
 
     public void num2OnAction(MouseEvent mouseEvent) {
+        setNumber(2);
     }
 
     public void num3OnAction(MouseEvent mouseEvent) {
+        setNumber(3);
     }
 
     public void num4OnAction(MouseEvent mouseEvent) {
+        setNumber(4);
     }
 
     public void num5OnAction(MouseEvent mouseEvent) {
+        setNumber(5);
     }
 
     public void num6OnAction(MouseEvent mouseEvent) {
+        setNumber(6);
     }
 
     public void num7OnAction(MouseEvent mouseEvent) {
+        setNumber(7);
     }
 
     public void num8OnAction(MouseEvent mouseEvent) {
+        setNumber(8);
     }
 
     public void num9OnAction(MouseEvent mouseEvent) {
+        setNumber(9);
     }
 
     public void num0OnAction(MouseEvent mouseEvent) {
+        setNumber(0);
     }
 
     public void eQOnAction(MouseEvent mouseEvent) {
@@ -44,5 +54,9 @@ public class MainFormController {
     }
 
     public void mulOnAction(MouseEvent mouseEvent) {
+
+    }
+    private void setNumber(double number){
+
     }
 }
