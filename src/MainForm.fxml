@@ -8,7 +8,7 @@
 
 <AnchorPane prefHeight="390.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
    <children>
-      <TextField alignment="CENTER_RIGHT" layoutX="23.0" layoutY="22.0" prefHeight="43.0" prefWidth="265.0" promptText="0">
+      <TextField fx:id="txtInput" alignment="CENTER_RIGHT" layoutX="23.0" layoutY="22.0" prefHeight="43.0" prefWidth="265.0" promptText="0">
          <font>
             <Font size="17.0" />
          </font>
